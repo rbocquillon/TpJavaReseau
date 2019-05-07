@@ -23,7 +23,6 @@ public class Service implements Runnable {
 			pause(1000);
 			pw.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
